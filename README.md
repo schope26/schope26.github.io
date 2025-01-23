@@ -4,7 +4,7 @@ Hello my name is Sincere Hope. This is my school account. This repository will h
 # About me
 
 ## My interests
-1. I like plating video games
+1. I like playing video games
 2. I like producing music
 3. I serve at Olive Garden
 
