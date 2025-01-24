@@ -27,5 +27,5 @@ flowchart TD
     --> B
     --> E[Is your number correct?]
     --> F[ Congrats! you win. Play Again?]
-    -- A
+    --> A
 ```
