@@ -20,7 +20,12 @@ Hello my name is Sincere Hope. This is my school account. This repository will h
 # Guessing Game
 
 ```mermaid
+flowchart TD
+    A{Numbers will range from 1 to 50} --> B{Guess a number} --> C{Is it greater than the number?} --> D{Sorry your number is too big} --> B
+    
 
+
+    
 ```
 
 
