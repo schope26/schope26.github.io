@@ -29,5 +29,5 @@ flowchart TD
     --> E[Is your number correct? ✅]
     --> F[ Congrats! You win a Trophy 🏆 . Play Again?]
     --> G[Yes✅, No ❌]
-    --> A and H[*ENDS GAME]
+    --> A; H[*ENDS GAME*]
 ```
