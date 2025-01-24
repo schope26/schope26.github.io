@@ -28,6 +28,6 @@ flowchart TD
     --> B
     --> E[Is your number correct? ✅]
     --> F[ Congrats! You win a Trophy 🏆 . Play Again?]
-    --> G [Yes ✅]
-    --> A
+    --> G[Yes✅, No ❌]
+    --> A;H[*ENDS GAME]
 ```
