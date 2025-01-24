@@ -30,7 +30,7 @@ flowchart TD
     --> F[ Congrats! You win a Trophy 🏆 . Play Again?]
     --> G[Yes✅, No ❌]
     --> H[NO ❌]
-    H --> I [*ENDS GAME*]
+    H --> I[*ENDS GAME*]
     G --> J[YES ✅]
     J --> A
 
