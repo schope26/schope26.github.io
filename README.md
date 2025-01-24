@@ -21,11 +21,13 @@ Hello my name is Sincere Hope. This is my school account. This repository will h
 
 ```mermaid
 flowchart TD
-    A[*START HERE!!!* Numbers will range from 1 to 50] --> B[Guess a number]
-    --> C[Is your number too big?]
-    --> D[Is your number to small?]
+    A[*START HERE❗❗❗* Numbers will range from 1 to 50] 
+    --> B[Guess a number]
+    --> C[Is your number too big? ❌]
+    --> D[Is your number to small? ❌]
     --> B
-    --> E[Is your number correct?]
-    --> F[ Congrats! you win. Play Again?]
+    --> E[Is your number correct? ✅]
+    --> F[ Congrats! You win a Trophy 🏆 . Play Again?]
+    --> G [Yes ✅]
     --> A
 ```
