@@ -15,3 +15,11 @@ flowchart TD
     G --> J[YES ✅]
     J --> A
 ```
+## Description
+    - Step one is to guess a number.
+    - The game will then judge if the number is is too bi or too small.
+    - If it is too big or too small the player will be prompted to try inputing another number.
+    - If the number is correct a victory screen will appear.
+    - The player will then be asked to play again.
+    - If yes then the player will play again.
+    - If no the game ends and the game closes.
