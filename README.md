@@ -15,3 +15,7 @@ Hello my name is Sincere Hope. This is my school account. This repository will h
     -[YouTube] (https://youtube.com) - I watch a plethora of videos on here everyday spanning from games to tutorials to funny videos.
 
     -[Reddit] (https://reddit.com) - I read a lot on topics I find interesting here on reddit. It has all the information you need!
+
+    
+
+
