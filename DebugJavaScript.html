@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Mortgage Calculator</title>
+</head>
+<body>
+    <h1>Mortgage Calculator</h1>
+    <form id="mortgageForm">
+        <table>
+            <tr>
+                <td><label for="principal">Loan Amount ($):</label></td>
+                <td><input type="number" id="principal" required></td>
+            </tr>
+            <tr>
+                <td><label for="rate">Interest Rate (%):</label></td>
+                <td><input type="number" id="rate" step="0.01" required></td>
+            </tr>
+            <tr>
+                <td><label for="years">Loan Term (years):</label></td>
+                <td><input type="number" id="years" required></td>
+            </tr>
+        </table>
+        <button type="button" onclick="calculateMortgage()">Calculate</button>
+    </form>
+    <p id="result"></p>
+    
+    <script>
+
+    function calculateMortgage() {
+        // Get the initial amount from the principal box
+        const principal = parseFloat(document.getElementById("principal").value);
+        
+        // update rate from the box
+        const rate = parseFloat(document.getElementById("rate").value) / 100;
+        
+         // Call the power funtion, pow, from Math
+        const years = parseFloat(document.getElementById("years").value);
+
+        //divided the annual rate by 12 for actual monthly rate
+        const monthlyRate = rate / 12;
+        
+        //multiplied years of loan to get number of monthly payments
+        const n = years * 12;
+    
+        let monthlyPayment;
+
+        //fixed so calculator can give a number by months instead of by years
+        if (monthlyRate === 0) {
+            monthlyPayment = principal / n;
+        } else {
+        const factor = Math.pow(1 + monthlyRate, n);
+        monthlyPayment = (principal * monthlyRate * factor) / (factor - 1);
+        }
+
+        document.getElementById("result").innerText =
+        `Your monthly payment is $${monthlyPayment.toFixed(2)}`;
+}
+        
+    </script>
+</body>
+</html>
