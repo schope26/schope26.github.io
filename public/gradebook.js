@@ -48,9 +48,3 @@ function populateGradebook(data) {
             tableElm.appendChild(row);
         });
 }
-
-// TODO: REMOVE THIS
-// Call the stubs to demonstrate the workFlow
-const gradeData = fetchGradeData();
-populateGradebook(gradeData);
-// END REMOVE
